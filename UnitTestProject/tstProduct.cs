@@ -21,5 +21,13 @@ namespace UnitTestProject
             AProduct.ProductName = SomeProduct;
             Assert.AreEqual(AProduct.ProductName, SomeProduct); 
         }
+
+        public void ProductNoOK()
+        {
+            clsProduct AProduct = new clsProduct();
+            Int32 SomeProduct = 1;
+            AProduct.ProductNo = SomeProduct;
+            Assert.AreEqual(AProduct.ProductNo, SomeProduct);
+        }
     }
 }
