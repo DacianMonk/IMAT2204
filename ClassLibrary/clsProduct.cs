@@ -5,5 +5,7 @@
         public clsProduct()
         {
         }
+
+        public string ProductName { get; set; }
     }
 }
